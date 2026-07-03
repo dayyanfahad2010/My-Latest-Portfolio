@@ -31,13 +31,13 @@ const skills = [
 export const Hero = () => {
   const handleDownloadCV = () => {
     console.log("Clicked");
-  const link = document.createElement("a");
-  link.href = "/public/Dayyan_Fahad_CV.pdf";
-  link.download = "Dayyan_Fahad_CV.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
+    const link = document.createElement("a");
+    link.href = "/public/Dayyan_Fahad_CV.pdf";
+    link.download = "Dayyan_Fahad_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
@@ -57,9 +57,8 @@ export const Hero = () => {
               backgroundColor: "#20B2A6",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${
-                15 + Math.random() * 20
-              }s ease-in-out infinite`,
+              animation: `slow-drift ${15 + Math.random() * 20
+                }s ease-in-out infinite`,
               animationDelay: `${Math.random() * 5}s`,
             }}
           />
@@ -72,7 +71,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                 React Specialist
+                MERN Stack Specialist
               </span>
             </div>
 
@@ -87,9 +86,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Dayyan Fahad — a Frontend Developer specializing in
-                React, Supabase and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Dayyan Fahad — a Full Stack Developer specializing in the MERN stack, TypeScript, and Supabase. I build scalable, high-performance web applications with modern frontend experiences, robust backend architectures, and secure APIs. 
               </p>
             </div>
 
