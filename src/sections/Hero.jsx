@@ -32,7 +32,7 @@ export const Hero = () => {
   const handleDownloadCV = () => {
     console.log("Clicked");
     const link = document.createElement("a");
-    link.href = "/public/Dayyan_Fahad_CV.pdf";
+    link.href = "/Dayyan_Fahad_CV.pdf";
     link.download = "Dayyan_Fahad_CV.pdf";
     document.body.appendChild(link);
     link.click();
