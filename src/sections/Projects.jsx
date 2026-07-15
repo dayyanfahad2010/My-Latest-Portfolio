@@ -11,14 +11,24 @@ const projects = [
     github: "https://github.com/dayyanfahad2010/Zyntra_Frontend",
   },
   {
-    title: "Authentication System",
-    description:
-      "Complete Authentication System Used In Every Website",
-    image: "/projects/auth-system.jpg",
-    tags: ["Node.Js", "Express.Js", "MongoDB", "JWT"],
-    link: "#",
-    github: "https://github.com/dayyanfahad2010/Complete_Authentication_System_BE",
-  },
+  title: "MaintainIQ - AI-Powered QR Maintenance & Asset History Platform",
+  description:
+    "A full-stack MERN application that digitizes asset maintenance using QR codes, AI-powered issue triage, technician assignment, maintenance workflows, and permanent asset history for organizations.",
+  image: "/projects/maintainiq.png",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Cloudinary",
+    "Groq AI",
+    "QR Code",
+    "Tailwind CSS"
+  ],
+  link: "https://hackathon-frontend-steel-six-blush.vercel.app/",
+  github: "https://github.com/dayyanfahad2010/frontend_hackathon",
+}
 ];
 
 export const Projects = () => {
